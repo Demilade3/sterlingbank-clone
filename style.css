@@ -28,7 +28,7 @@ nav{
 
 .genlayout {
     /* border: 2px solid; */
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -246,7 +246,93 @@ nav{
     flex-direction: column;
 }
 
-.box >h5{
+
+
+.sec-four{
+   background-image: url(https://sterling.ng/wp-content/uploads/2026/02/clipboard-image-1770036530.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* height: 65vh; */
+    padding-block: 5rem;  
+}
+
+.grid-options{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-card-option{
+    border-radius: 3rem 2rem;
+    /* height: 45vh; */
+    box-shadow: .1rem .1rem 15px grey;
+}
+
+.grid-card-option:nth-child(even){
+    border-radius: 2rem 3rem;
+}
+
+.grid-card-option > img{
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 3rem;
+}
+
+.card-content{
+    padding: 1rem 2rem;
+}
+
+.card-content > h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-content > p{
+    font-size: 16px;
+    margin-block: .5rem;
+}
+
+.card-content > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a31920;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: .5rem;
+}
+
+
+.sec-five{
+    background-color: #666666;
+    width: 100%;
+    /* height: ; */
+    background-size: cover;
+    padding-block: 5rem;
+}
+
+.footer{
+    display: flex;
+    gap: 70px;
+    /* display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr); */
+    display: flex;
+}
+
+.footer > .footer-details > h3{
+text-transform: uppercase;
+color: #FFFFFF;
+font-size: 14px;
+font-weight: 500;
+}
+
+.footer > .footer-details > a{
+    text-decoration: none;
+    color: #FFFFFF94;
+    font-size: 14px;
+    font-weight: 300;
+
 
 }
 
