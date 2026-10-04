@@ -364,6 +364,7 @@ nav {
   .navItems > a {
     border-bottom: 2px solid;
     padding-top: 0.5rem;
+    text-decoration: none;
   }
 
   .search {
