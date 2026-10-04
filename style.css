@@ -358,6 +358,7 @@ nav {
   .navItems {
     flex-direction: column;
     align-items: start;
+    text-decoration: none;
   }
 
   .navItems > a {
